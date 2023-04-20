@@ -38,11 +38,12 @@ function Section({ children, title }: SectionProps): JSX.Element {
         style={[
           styles.sectionTitle,
           {
-            color: isDarkModed ? Colors.white : Colors.black,
+            color: isDarkModed ? Colors.red : Colors.black,
           },
         ]}>
         {title}
       </Text>
+      <View><Text>123</Text></View>
       <Text
         style={[
           styles.sectionDescription,
