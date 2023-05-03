@@ -77,8 +77,8 @@ function App(): JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
-            Steps 1
+          <Section title="Step two">
+            Steps 1.  Read the docs to discover what to do next:
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
