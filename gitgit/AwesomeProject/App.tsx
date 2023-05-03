@@ -70,7 +70,7 @@ function App(): JSX.Element {
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
-            Edits
+            Edi
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
@@ -81,7 +81,6 @@ function App(): JSX.Element {
           <Section title="Learn More">
             Read docs
           </Section>
-          <LearnMoreLinks />
         </View>
       </ScrollView>
     </SafeAreaView>
