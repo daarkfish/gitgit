@@ -44,15 +44,6 @@ function Section({ children, title }: SectionProps): JSX.Element {
         {title}
       </Text>
       <View><Text>123</Text></View>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
     </View>
   );
 }
@@ -89,7 +80,7 @@ function App(): JSX.Element {
             <DebugInstructions />
           </Section>
           <Section title="Learn More">
-            Read the docs to discover what to do next:
+            Read docs
           </Section>
           <LearnMoreLinks />
         </View>
