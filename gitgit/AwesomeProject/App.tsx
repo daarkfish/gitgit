@@ -33,7 +33,7 @@ function Section({ children, title }: SectionProps): JSX.Element {
   const isDarkModed = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
-      <Text>Changes</Text>
+      <Text>Changes 123</Text>
       <Text
         style={[
           styles.sectionTitle,
